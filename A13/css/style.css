@@ -1,0 +1,30 @@
+p.description{
+    color: red;
+}
+
+div p{
+    color: blue;
+}
+
+div > p {
+    background-color: red;
+}
+
+/* the first p element outside div */
+div + p {
+    background-color: blueviolet;
+}
+
+/* everything under the paragraph turns whatever */
+p ~ ul{
+    background-color: red;
+}
+
+/*first child of everything */
+p:first-child{
+    color: rgb(125, 255, 125);
+}
+
+p:nth-of-type(odd){
+    background-color: blue;
+}

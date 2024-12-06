@@ -1,0 +1,5 @@
+1. UI (User Interface) is the visual layout of a digital product, focusing on elements like buttons and icons.
+2. UX (User Experience) encompasses the overall user journey, aiming to create seamless and satisfying interactions.
+3. UI (User Interface): UI focuses on the visual and interactive elements of a product, including design, layout, and interactive components like buttons and sliders.
+UX (User Experience): UX encompasses the overall experience and satisfaction users have while interacting with a product, including usability, accessibility, and the flow of user interactions.
+Similarities: Both UI and UX aim to enhance user satisfaction and ensure that the product is both functional and enjoyable to use, often collaborating closely to achieve cohesive and user-friendly designs.

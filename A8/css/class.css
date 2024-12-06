@@ -1,0 +1,14 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    border: 3px solid red;
+}
+
+.box-first{
+    margin-left: 1100px;
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    border: 3px solid red;
+}
