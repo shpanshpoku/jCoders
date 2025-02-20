@@ -1,8 +1,0 @@
-input[type="text"]:focus{
-    width: 100%;
-    background-color: red;
-}
-
-button:hover{
-    background-color: blue;
-}
