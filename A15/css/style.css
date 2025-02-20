@@ -1,0 +1,58 @@
+div{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.relative{
+    position: relative;
+    left: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.absolute{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    border: 1px black solid;
+    padding: 10px;
+    background-color: blue;
+}
+
+.box1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 120px;
+    height: 120px;
+    background-color: burlywood;
+    z-index: 13;
+}
+
+.box1{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    z-index: 2;
+}

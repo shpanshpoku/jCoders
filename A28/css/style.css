@@ -1,0 +1,25 @@
+/* .grid {
+    width: 300px;
+    height: 500px;
+    background: linear-gradient(90deg, rgba(2, 3, 61, 0.6) 0%, rgba(0, 168, 255, 0.8) 100%),
+    url("linkun efotos");
+    background-size: cover;
+} */
+
+
+:root{
+        --primary-color: #3498db;
+        --secondary: #2ecc71;
+        --border-color: #e74c3c;
+        --text-color: #333;
+        --background-color: #f5f5f5;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1{
+    color: var(--primary-color);
+}

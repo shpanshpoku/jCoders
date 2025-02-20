@@ -1,0 +1,138 @@
+.cards{
+    width: 100%;
+    margin: auto;
+
+}
+
+.left{
+    display: inline-block;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 4%;
+    vertical-align: middle;
+    height: 550px;
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px 30px
+}
+
+.middle{
+    display: inline-block;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 4%;
+    vertical-align: middle;
+    height: 550px;
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0% 3%;
+}
+
+.right{
+    display: inline-block;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 4%;
+    vertical-align: middle;
+    height: 550px;
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 100px 30px
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+.span{
+    font-size: medium;
+    color: #a5adbb;
+    font-family: "Open Sans", 'sans-serif';
+}
+
+img{
+    height: 70px;
+    width: 70px;
+}
+
+.heading1{
+    color: #f3b10e;
+    font-family: serif;
+}
+
+.heading2{
+    color: #1dabf2;
+    font-family: serif; 
+}
+
+.heading3{
+    color: #46d68c;
+    font-family: serif;
+}
+
+p{
+    margin: auto;
+    color: #92969d;
+    font-size: small;
+    font-family: serif;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.line{
+    width: 200px;
+    height: 10px;
+    border-bottom: 2px solid #ebeced;
+}
+
+li{
+    margin-left: -30px;
+    font-size: small;
+    color: #6e798c;  
+}
+
+.button1{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ebeced;
+    background-color: #ebeced;
+    color: #798369;
+    border-radius: 4%;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+.button2{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ebeced;
+    background-color: #ffffff;
+    color: #798369;
+    border-radius: 4%;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+.button3{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #46db8c;
+    background-color: #46db8c;
+    color: #798369;
+    border-radius: 4%;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+img:hover{
+    border: 2px solid red;
+    background-color: pink;
+}
+
+.tick{
+    height: 10px;
+    width: 10px;
+}

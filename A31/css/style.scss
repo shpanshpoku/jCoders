@@ -1,0 +1,7 @@
+$design-font: helvetica, sans-serif;
+$primary-color: blue;
+
+body {
+    font-family: $design-font; // Use font-family instead of shorthand font
+    color: $primary-color;
+}

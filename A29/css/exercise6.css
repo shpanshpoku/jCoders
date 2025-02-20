@@ -1,0 +1,98 @@
+:root {
+  --background-page: #f2f8fa; /* Softer background */
+  --border-color: transparent; /* Removed border */
+  --font-primary: 'Roboto', sans-serif;
+  --card-max-width: 18rem; /* Adjusted card width for better fit */
+  --card-min-height: 12rem; /* Adjusted height */
+  --card-bg-color: #ffffff; /* White background for the cards */
+  --heading-color: #333333; /* Slightly darker heading */
+  --border-bottom-color: #753BBD;
+  --subheading-color: #666666;
+  --text-color: #666666;
+  --link-color: #753BBD;
+  --hover-bg-color: #f9f9f9; /* Slightly dimmed hover */
+  --hover-heading-color: #521A8B;
+  --hover-border-bottom-color: #521A8B;
+  --hover-link-color: #521A8B;
+  --icon-fill-hover: #521A8B;
+}
+
+.page-contain {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: var(--background-page); /* Use soft page background */
+  padding: 2em;
+  font-family: var(--font-primary);
+}
+
+.data-card {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--card-max-width);
+  min-height: var(--card-min-height);
+  overflow: hidden;
+  border-radius: 0.5em;
+  text-decoration: none;
+  background: var(--card-bg-color);
+  margin: 1em;
+  padding: 1.5em; /* Added padding for proper spacing */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adjusted shadow */
+  transition: transform 0.45s ease, background 0.45s ease;
+}
+
+.data-card h3 {
+  color: var(--heading-color);
+  font-size: 2.5em; /* Adjust font size */
+  font-weight: 600;
+  line-height: 1;
+  padding-bottom: 0.5em;
+  margin: 0;
+  border-bottom: 2px solid var(--border-bottom-color);
+}
+
+.data-card h4 {
+  color: var(--subheading-color);
+  text-transform: uppercase;
+  font-size: 1em; /* Reduced font size */
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  margin: 0.5em 0 1em;
+}
+
+.data-card p {
+  color: var(--text-color);
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0;
+  transform: none; /* Keep visible always */
+  transition: opacity 0.45s ease, transform 0.5s ease;
+}
+
+.data-card .link-text {
+  display: block;
+  color: var(--link-color);
+  font-size: 1em; /* Adjusted font size */
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: auto;
+  text-decoration: none; /* Added to avoid underline */
+}
+
+.data-card:hover {
+  background: var(--hover-bg-color);
+  transform: translateY(-5px); /* Slight lift */
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced hover shadow */
+}
+
+.data-card:hover h3 {
+  color: var(--hover-heading-color);
+  border-bottom-color: var(--hover-border-bottom-color);
+}
+
+.data-card:hover .link-text {
+  color: var(--hover-link-color);
+}
+

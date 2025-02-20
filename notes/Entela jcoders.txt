@@ -1,0 +1,11 @@
+1. UI (User Interface) është paraqitja vizuale e një produkti dixhital, duke u fokusuar në elemente si butonat dhe ikona.
+2. UX (User Experience) përfshinë eksperiencën e përgjithshme të përdoruesit, duke synuar të krijojë një ndërveprim sa më "smooth" me produktin.
+3. UI (User Interface): UI fokusohet në elementet vizuale dhe ndërvepruese të një produkti, duke përfshirë dizajnin, paraqitjen dhe komponentët e tjerë si butonat dhe ikonat.
+UX (User Experience): UX përfshinë përvojën e përgjithshme dhe eksperiencën që përdoruesit kanë gjatë ndërveprimit me një produkt, duke përfshirë përdorshmërinë, aksesin dhe rrjedhën e ndërveprimeve me përdoruesit.
+Ngjashmëritë: Si UI ashtu edhe UX synojnë të rrisin kënaqësinë e përdoruesit dhe të sigurojnë që produkti të jetë funksional dhe i këndshëm për t'u përdorur.
+4. Tools që përdorën në Figma përfshijnë: frame tool, text tool, shape tool, hand tool, etj.
+5. Move tool shërben si mjet për të lëvizur dhe pozicionuar elementët në frame (kornizë).
+6. Frame tool shërben si mjet për të krijuar dhe organizuar frames (korniza) në të cilat vendosim elementet.
+7. Për të ndryshuar ngjyrën e elementit, përdorni parametrin Fill në Inspector panel.
+8. Për të vendosur elementin në një pozitë të caktuar, përdorni koordinatat X dhe Y në Inspector panel.
+9. Për të shtuar një hije në element, shkoni në Effects në Inspector panel, klikoni mbi + për të shtuar një efekt të ri, dhe përzgjidhni Drop Shadow.

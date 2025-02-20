@@ -1,0 +1,18 @@
+@use 'sass';
+
+body {
+  font-family: variables.$font-family-main;
+  font-size: variables.$font-size-base;
+  color: variables.$primary-color;
+}
+
+button {
+  background-color: variables.$primary-color;
+  color: #fff;
+  padding: variables.$button-padding;
+  border-radius: variables.$button-border-radius;
+
+  &:hover {
+    background-color: variables.$secondary-color;
+  }
+}
